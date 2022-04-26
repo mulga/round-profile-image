@@ -1,0 +1,81 @@
+/* Poppins */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+/* Work Sans */
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap"); */
+
+/* Roboto */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
+
+:root {
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-success: #28a744;
+  --color-danger: #dc3644;
+  --color-warning: #ffc109;
+  --color-info: #18a2b8;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+  --color-white: #ffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  background-color: var(--color-light);
+}
+
+/* p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+} */
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  /* background-color: var(--color-primary); */
+  transition: all 800ms;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  overflow: hidden;
+  background-image: url("images/afterclap-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.round {
+  transform: rotate(360deg);
+  border-radius: 50%;
+  background-color: transparent;
+  background-image: url("images/afterclap-4.svg");
+
+  border: 3px solid var(--color-primary);
+}

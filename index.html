@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap CSS -->
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/6b7d429c30.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+    </div>
+
+    <!-- Js -->
+    <!-- <script src="script.js"></script> -->
+
+    <script>
+      let box = document.querySelector(".box");
+
+      box.addEventListener("click", function () {
+        // box.classList.add("round");
+        box.classList.toggle("round");
+      });
+    </script>
+  </body>
+</html>
