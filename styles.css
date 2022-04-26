@@ -69,6 +69,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border: 25px solid var(--color-white);
 }
 
 .round {
@@ -77,5 +78,5 @@ img {
   background-color: transparent;
   background-image: url("images/afterclap-4.svg");
 
-  border: 3px solid var(--color-primary);
+  border: 25px solid var(--color-primary);
 }
